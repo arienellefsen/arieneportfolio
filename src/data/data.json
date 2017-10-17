@@ -1,0 +1,168 @@
+[{
+        "id": "1",
+        "name": "Pack and Share",
+        "description": "Full Stack Developer",
+        "longDescription": "<p>The web app Pack Share was developed with the intent to provide an easy way to share your favorite places .</p><br> <img src='img/pack-port-img.jpg' class='center-block img-responsive'>",
+        "image": "img/port1.1.2.jpg",
+        "url": "https://immense-plains-11898.herokuapp.com/",
+        "Technology": "Node.js, Express, MongoDb, Mongoose, Handlebars, Passport.js, HTML, CSS, SASS, Javascrip, React"
+    },
+    {
+        "id": "2",
+        "name": "Curricula",
+        "description": "Front-End  & Graphic Designer",
+        "longDescription": "<p>Re-designed company’s website, assisted in the monitoring and reporting on website traffic and performance. Created HTML email templates and newsletters for marketing campaigns. Designed logos, promotional material, brochure, infographics and marketing collateral.</p><br> <img src='img/ultra-port-img.jpg' class='center-block img-responsive'>",
+        "image": "img/port14.jpg",
+        "url": "http://www.ultrashiptms.com",
+        "Technology": "Wordpress, CSS, HTML5, JQuery, Illustrator, Indesign, Photoshop "
+    },
+    {
+        "id": "3",
+        "name": "Family Fun",
+        "description": "Front-End  & Graphic Designer",
+        "longDescription": "<p>Re-designed company’s website, assisted in the monitoring and reporting on website traffic and performance. Created HTML email templates and newsletters for marketing campaigns. Designed logos, promotional material, brochure, infographics and marketing collateral.</p><br> <img src='img/ultra-port-img.jpg' class='center-block img-responsive'>",
+        "image": "img/port14.jpg",
+        "url": "http://www.ultrashiptms.com",
+        "Technology": "Wordpress, CSS, HTML5, JQuery, Illustrator, Indesign, Photoshop "
+    },
+    {
+        "id": "4",
+        "name": "Pantone",
+        "description": "Front-End  & Graphic Designer",
+        "longDescription": "<p>Re-designed company’s website, assisted in the monitoring and reporting on website traffic and performance. Created HTML email templates and newsletters for marketing campaigns. Designed logos, promotional material, brochure, infographics and marketing collateral.</p><br> <img src='img/ultra-port-img.jpg' class='center-block img-responsive'>",
+        "image": "img/port14.jpg",
+        "url": "http://www.ultrashiptms.com",
+        "Technology": "Wordpress, CSS, HTML5, JQuery, Illustrator, Indesign, Photoshop "
+    },
+    {
+        "id": "5",
+        "name": "The Medicine Company",
+        "description": "Front-End  & Graphic Designer",
+        "longDescription": "<p>Re-designed company’s website, assisted in the monitoring and reporting on website traffic and performance. Created HTML email templates and newsletters for marketing campaigns. Designed logos, promotional material, brochure, infographics and marketing collateral.</p><br> <img src='img/ultra-port-img.jpg' class='center-block img-responsive'>",
+        "image": "img/port14.jpg",
+        "url": "http://www.ultrashiptms.com",
+        "Technology": "Wordpress, CSS, HTML5, JQuery, Illustrator, Indesign, Photoshop "
+    },
+
+    {
+        "id": "6",
+        "name": "UltraShipTMS",
+        "description": "Front-End  & Graphic Designer",
+        "longDescription": "<p>Re-designed company’s website, assisted in the monitoring and reporting on website traffic and performance. Created HTML email templates and newsletters for marketing campaigns. Designed logos, promotional material, brochure, infographics and marketing collateral.</p><br> <img src='img/ultra-port-img.jpg' class='center-block img-responsive'>",
+        "image": "img/port14.jpg",
+        "url": "http://www.ultrashiptms.com",
+        "Technology": "Wordpress, CSS, HTML5, JQuery, Illustrator, Indesign, Photoshop "
+    },
+    {
+        "id": "7",
+        "name": "RCR Flooring",
+        "description": "Front End  Developer",
+        "longDescription": "Developed company's website.",
+        "image": "img/port16.jpg",
+        "url": "http://rcrdesignerflooring.com/",
+        "Technology": "Wordpress, CSS, HTML5, JQuery"
+    },
+    {
+        "id": "8",
+        "name": "LEXIS NEXIS",
+        "description": "Front End  & Graphic Designer",
+        "longDescription": "<p>Built over 60 + custom Wordpress templates websites</p></br><h6></h6><br><a href='http://stockyardslawfirm.net'>Pettitt & Kimball</a></br><a href='http://www.lawyerdentontx.com'>Buchanan and Meyer</a></br><a href='http://www.kidderbennett.com'>Kidder & Bennett PA</a></br><a href='http://www.mommerscolombo.com'>Mommers & Colombo</a></br><a href='http://edgarlawgroup.com'>Edgar Law Group</a></br><a href='http://www.brainerddwilawyer.com'>Dennis Lothspeich</a></br><a href='http://www.schlagelkinzer.com'>Schlagel Kinzer LLC</a> </br><a href='http://grahammauerlaw.com'>Graham & Mauer</a> </br><a href='http://www.taborlawfirm.net'>Tabor Law Firm, P.A</a> </br><a href='http://www.hhandplaw.com'>Henderson, Howard & Pawluk</a></br><a href='http://www.ackermanpartners.com'>Ackerman, O'Brien, Pachman & Brown</a></br><a href='http://www.rtblawfirm.com'>The Burbine Law Firm, P.A</a></br><a href='http://crawfordlawpractice.com/home/mark-a-crawford'>Crawford Law Firm</a></br><a href='http://www.kmtexaslaw.com'>Kasselman & McCorkindale</a></br><a href='http://www.mcdonaldatlaw.com'>McDonald At Law</a></br><a href='http://www.haroldthelawyer.com'>Dr. Harold L. Ehrenberg</a></br><a href='http://www.sscglaw.com'>Silton Seifert & Carlson SC</a>  </br><a href='http://www.hagelaw.com'>Hage & Hage LLC</a>",
+        "image": "img/port3.jpg",
+        "Technology": "HTML, CSS, HTML5, CSS3, Wordpress, Boostrap, jQuery, Javascript, Photoshop."
+    },
+    {
+        "id": "9",
+        "name": "Stevens Institute",
+        "description": "Front End  & Graphic Designer",
+        "longDescription": "<p>Provided front-end development for www.stevens.edu/howe</p>",
+        "image": "img/port17.jpg",
+        "url": "http://www.stevens.edu/howe/",
+        "Technology": "Wordpress, Drupal, CSS, HTML5, JQuery"
+
+    },
+    {
+        "id": "10",
+        "name": "Fabiola Korin",
+        "description": "Front End  & Graphic Designer",
+        "longDescription": "Developed ecommerce website.",
+        "image": "img/port1.jpg",
+        "url": "http://fabiolakorin.com",
+        "Technology": "Wordpress, CSS, HTML5, JQuery"
+
+    },
+    {
+        "id": "11",
+        "name": "Manhattan Signs",
+        "description": "Front End  & Graphic Designer",
+        "longDescription": "Developed company's website.",
+        "image": "img/port10.jpg",
+        "url": "http://www.manhattansignsco.com",
+        "Technology": "Wordpress, Drupal, CSS, HTML5, JQuery"
+    },
+
+    {
+        "id": "12",
+        "name": "Gatheres",
+        "description": "Graphic Designer",
+        "longDescription": "<img src='img/ipad23.png' class='img-responsive center-block'>",
+        "image": "img/port9.jpg",
+        "Technology": "Indesign, Photoshop"
+    },
+
+    {
+        "id": "13",
+        "name": "book cover",
+        "description": "Graphic Designer",
+        "longDescription": "<img src='img/book_cover2.png' class='img-responsive center-block'>",
+        "image": "img/port2.jpg",
+        "Technology": "Handmade with seed beads, Photoshop and Indesign"
+    },
+
+    {
+        "id": "14",
+        "name": "AIKA Fashion Show",
+        "description": "Graphic Designer",
+        "longDescription": "<img src='img/fashion_design.jpg' class='img-responsive center-block'>",
+        "image": "img/port13.jpg",
+        "Technology": "Illustrator, Indesign, Photoshop"
+
+    },
+    {
+        "id": "15",
+        "name": "NYPL Flyer",
+        "description": "Graphic Designer",
+        "longDescription": "<img src='img/NYPL_design.jpg' class='img-responsive center-block'>",
+        "image": "img/port4.jpg",
+        "Technology": "Illustrator, Indesign, Photoshop"
+    },
+
+    {
+        "id": "16",
+        "name": "Annual report",
+        "description": "Graphic Designer",
+        "longDescription": " <img src='img/anual_design.jpg' class='img-responsive center-block'>",
+        "image": "img/port8.jpg",
+        "Technology": "Illustrator, Indesign, Photoshop"
+    },
+
+    {
+        "id": "17",
+        "name": "Swimming pool",
+        "description": "Front End  & Graphic Designer",
+        "longDescription": "Responsible for over 50+ branding and corporate company websites under the POOLCORP marketing department.",
+        "image": "img/port12.jpg",
+        "url": "http://www.swimmingpool.com",
+        "Technology": " Joomla, Drupal, CSS, HTML, PHP, JavaScript, MYSQL"
+    },
+    {
+        "id": "18",
+        "name": "pool Corp",
+        "description": "Front End  & Graphic Designer",
+        "longDescription": "Responsible for over 50+ branding and corporate company websites under the POOLCORP marketing department.",
+        "image": "img/port11.jpg",
+        "url": "http://www.poolcorp.com",
+        "Technology": " Joomla, Drupal, CSS, HTML, PHP, JavaScript, MYSQL"
+
+    }
+
+]
