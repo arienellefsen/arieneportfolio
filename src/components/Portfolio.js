@@ -3,17 +3,15 @@ import { NavLink} from 'react-router-dom';
 
 const Portfolio = (props) => {
 let portfolioList = props.title;
-let portfolios = portfolioList.map((portfolio) => {
+let portfolios = portfolioList.map((portfolio, i) => {
   
    return (
-
-        <div className="col-md-4 padding">
+        <div className="col-md-4 padding" key={i}>
           <div className="portfolio-container">
-          <div className="type-project">{portfolio.type}</div>
-            <div className="image-portfolio"><h2>{portfolio.name}</h2></div>
-            <p><strong><i>Technologies: </i></strong>{portfolio.Technology}</p>
-            {/* <img className="portfolio-img" src={require(`../images/${portfolio.image}`)} alt={portfolio.name}/> */}
-            <p className="portfolio-detail-link"><NavLink to={`\portfolio/${portfolio.id}`}> <button>More Details</button></NavLink> </p>
+          <div className="type-project">{portfolio.type} </div>
+            <div className="image-portfolio"><h2>{portfolio.name} </h2></div>
+            <p><strong><i>Technologies: </i></strong>{portfolio.Technology} </p>
+            <p className="portfolio-detail-link"><NavLink to={`\portfolio/${portfolio.id}`} > <button>More Details</button></NavLink> </p>
           </div>
         </div>
      );

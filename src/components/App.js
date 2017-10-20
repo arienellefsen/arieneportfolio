@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {
   BrowserRouter,
   Route,
-  Switch,
-  IndexRoute
+  Switch
 } from 'react-router-dom';
 
 // App components

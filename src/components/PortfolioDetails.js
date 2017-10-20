@@ -8,14 +8,13 @@ export default class PortfolioDetails extends Component {
     }
 
         setData(){
-            let idTeacher = this.props.match.params.id;
-            let idApi = this.props.title;
+            let idPort = this.props.match.params.id;
             let data = this.props.title; 
-            const dataTeacher = data.filter(dataTeacher => {
-                if(dataTeacher.id === idTeacher)
+            const dataPortfolio = data.filter(dataPortfolio => {
+                if(dataPortfolio.id === idPort)
                 {
-                    this.setState({ details: dataTeacher }) 
-                    return dataTeacher;
+                    this.setState({ details: dataPortfolio }) 
+                    return dataPortfolio;
                 }
                 else{
                     //document.getElementById("header").innerHTML = "Not found"; 

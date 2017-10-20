@@ -1,9 +1,4 @@
 import React from 'react';
-import { Link} from 'react-router-dom';
-
-function newDoc() {
-    window.location.assign("https://drive.google.com/file/d/0B98TqNWe3btVN2ZER05mVko2Mk0/view")
-}
 
 const About = (props) => (
   <div className="container">
