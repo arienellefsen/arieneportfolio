@@ -29,11 +29,13 @@ class Video extends Component{
               <Search />
             </div>
             <div className='col-md-8'>
-              <VideoDetails video={this.state.videos[0]} />
+              <VideoDetails video={this.state.selectVideo} />
           </div>
 
             <div className='col-md-8'>
-              <VideoList video={this.state.videos} />
+              <VideoList 
+              onVideoSelect ={selectVideo => this.setState({selectVideo})}
+              video={this.state.videos} />
           </div>
         </div>
       )

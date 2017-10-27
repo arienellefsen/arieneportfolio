@@ -1,9 +1,9 @@
 import React from 'react';
 
-const VideoListItem = ({video}) => {
+const VideoListItem = ({video, onVideoSelect}) => {
     return (
 
-<div className="card">
+<div className="card" onClick={()=> onVideoSelect(video)}>
   <img className="card-img-top" src={video.snippet.thumbnails.default.url} alt={video.snippet.title} />
   <div className="card-block">
     <h4 className="card-title">{video.snippet.title}</h4>
