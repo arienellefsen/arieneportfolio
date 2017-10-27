@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import {
   BrowserRouter,
   Route,
@@ -13,21 +13,39 @@ import NotFound from './NotFound';
 import Portfolio from './Portfolio';
 import PortfolioDetails from './PortfolioDetails';
 import portfolioData from '../data/portfolioData';
+import Video from './Video';
 
-const App = (props) => (
-  <BrowserRouter>
-    <div className="container">
-      <Header />
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/about" render={ () => <About title='About' /> } />
-        <Route exact path="/portfolio" render={ (props) => <Portfolio title={portfolioData} {...props}/>} />
-        <Route path="/portfolio/:id" render={ (props) => <PortfolioDetails title={portfolioData} {...props}/>}/>
-        <Route component={NotFound} />
-      </Switch>
-    </div>
+      
+  class App extends Component{
+    constructor(props){
+      super(props);
+        this.state = { 
+          videos: [],
+          portfolio: [],
+        };
+
+    }
+
+    render(){
+      return (
+      <BrowserRouter>
+        <div className="container">
+          <Header />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/about" render={ () => <About title='About' /> } />
+            <Route exact path="/portfolio" render={ (props) => <Portfolio title={this.state.portfolio} selectedVideo={this.state.selectedPortfolio} {...props}/>} />
+            <Route path="/portfolio/:id" render={ (props) => <PortfolioDetails title={portfolioData} {...props}/>}/>
+            <Route path="/video" component={Video} />}  />
+            <Route component={NotFound} />
+          </Switch>
+        </div>
   </BrowserRouter>
-);
+      )
+    }
+
+  }
+
 
 export default App;
 

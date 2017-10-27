@@ -302,3 +302,7 @@ footer {
     }
     /* COURSE NAV -------- */
 }
+
+.card-img-top {
+    width: 90px !important;
+}

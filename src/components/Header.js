@@ -8,6 +8,8 @@ const Header = () => (
       <li><NavLink exact to="/">Home</NavLink></li>
       <li><NavLink to="/portfolio">Portfolio</NavLink></li>
       <li><NavLink to="/about">About</NavLink></li>
+      <li><NavLink to="/video">Video</NavLink></li>
+      
     </ul>    
   </header>
 );

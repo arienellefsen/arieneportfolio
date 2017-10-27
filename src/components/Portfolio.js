@@ -1,32 +1,27 @@
 import React from 'react';
 import { NavLink} from 'react-router-dom';
+import PortfolioListDetails from './PortfolioListDetails';
+
 
 const Portfolio = (props) => {
-let portfolioList = props.title;
-let portfolios = portfolioList.map((portfolio, i) => {
-  
-   return (
-        <div className="col-md-4 padding" key={i}>
-          <div className="portfolio-container">
-          <div className="type-project">{portfolio.type} </div>
-            <div className="image-portfolio"><h2>{portfolio.name} </h2></div>
-            <p><strong><i>Technologies: </i></strong>{portfolio.Technology} </p>
-            <p className="portfolio-detail-link"><NavLink to={`\portfolio/${portfolio.id}`} > <button>More Details</button></NavLink> </p>
+  const portfolioItems = props.title.map((portfolio, i) => {
+    return <PortfolioListDetails portfolio={portfolio}  key={i}/>
+  });
+    return(
+        <div className='row'>
+         <div className='col-md-12'>
+            <h1>Portfolio</h1> 
           </div>
+          <div className='col-md-4'>
+            {portfolioItems}
         </div>
-     );
-   }); 
-return (
-<div className="container">
-    <div className="row">
-        <div className="col-md-12">
-            <h2 className="page-title-header">Portfolio</h2>
+        <div className='col-md-8'>
+           <h3> Show Details</h3>
         </div>
-    </div> 
-        <div className="row">
-            {portfolios} 
-        </div>
-</div>
-    );
+      </div>
+    )
 }
+
 export default Portfolio;
+
+
