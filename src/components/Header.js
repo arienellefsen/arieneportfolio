@@ -3,14 +3,19 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => (
   <header>
-    <span className="icn-logo"><h3 className="logo">Ariene Ellefsen</h3></span>
-    <ul className="main-nav">
-      <li><NavLink exact to="/">Home</NavLink></li>
-      <li><NavLink to="/portfolio">Portfolio</NavLink></li>
-      <li><NavLink to="/about">About</NavLink></li>
-      <li><NavLink to="/video">Video</NavLink></li>
-      
-    </ul>    
+  <div className="container">
+  <div className="row">
+    <div className="col-md-12">
+      <div className="icn-logo"><h3 className="logo text-center">Ariene Ellefsen</h3></div>
+        <ul className="main-nav">
+          <li><a href="/">Home</a></li>
+          <li><a href="#1">Portfolio</a></li>
+          <li><a href="#2">About</a></li>
+          <li><NavLink to="/video">Video</NavLink></li> 
+        </ul>   
+      </div>
+    </div> 
+    </div> 
   </header>
 );
 

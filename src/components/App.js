@@ -14,7 +14,6 @@ import Portfolio from './Portfolio';
 import PortfolioDetails from './PortfolioDetails';
 import portfolioData from '../data/portfolioData';
 import Video from './Video';
-
       
   class App extends Component{
     constructor(props){
@@ -23,13 +22,11 @@ import Video from './Video';
           videos: [],
           portfolio: [],
         };
-
     }
-
     render(){
       return (
       <BrowserRouter>
-        <div className="container">
+        <div>
           <Header />
           <Switch>
             <Route exact path="/" component={Home} />
@@ -40,13 +37,10 @@ import Video from './Video';
             <Route component={NotFound} />
           </Switch>
         </div>
-  </BrowserRouter>
+     </BrowserRouter>
       )
     }
-
   }
-
-
 export default App;
 
 

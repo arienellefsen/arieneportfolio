@@ -31,11 +31,6 @@ ul {
     margin-top: 20px;
 }
 
-a {
-    text-decoration: none;
-    color: #2f2f2f;
-}
-
 hr {
     border: 0;
     height: 0;
@@ -91,11 +86,22 @@ button:hover {
 
 header {
     margin-bottom: 2em;
-    font-family: 'Raleway', sans-serif;
     font-size: 0.75rem;
-    font-weight: 700;
     text-transform: uppercase;
     padding-top: 3em;
+}
+
+ul.main-nav {
+    display: inherit;
+    text-align: center !important;
+}
+
+ul.main-nav li {
+    text-align: center;
+    float: none;
+    display: inline-block;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.1em;
 }
 
 
@@ -105,12 +111,13 @@ header {
 /* Logo -------- */
 
 .logo {
-    font-family: 'Raleway', sans-serif;
-    font-size: 3em;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2em;
     color: #000;
     padding-top: 0px;
-    font-weight: 300;
+    font-weight: 500;
     text-transform: none;
+    padding-bottom: 30px;
 }
 
 
@@ -142,7 +149,7 @@ header {
 }
 
 h2.page-title-header {
-    background: #000;
+    background: #fff;
     font-size: 1.2em;
     font-family: 'Playfair Display', serif;
     padding: 1em;
@@ -189,14 +196,46 @@ img.img-portfolio {
 /*Home*/
 
 h2.home-introduction {
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    font-size: 1.75rem;
-    font-weight: 700;
-    padding-top: 1em;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2.3em;
+    font-weight: 400;
+    padding-top: 1.9em;
     padding-bottom: 1em;
     text-align: center;
     color: #000;
+    line-height: 1.6em;
+    opacity: 0.735088;
+}
+
+.arrow-bottom {
+    border-left: 2px solid #000;
+    height: 50px;
+    display: table;
+    margin: 0px auto;
+    float: none;
+    text-align: center !important;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: -8px;
+}
+
+.arrow-bottom2 {
+    border-left: 2px solid #000;
+    height: 20px;
+    display: table;
+    margin: 0px auto;
+    float: none;
+    text-align: center !important;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+p.my-work-link {
+    padding-top: 40px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.3em;
+    font-weight: 300;
+    margin-bottom: 53px;
 }
 
 .home-container h3 {
@@ -220,18 +259,126 @@ button.button-about {
 }
 
 .header-about {
-    font-family: 'Playfair Display', serif;
-    font-weight: 600;
-    font-size: 2em;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 2em !important;
     color: #000;
+    margin-top: -20px;
 }
 
 .quote {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.2em;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1em !important;
     color: #000;
-    padding-top: 1em;
-    font-weight: 600;
+    padding-top: 10px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    line-height: 0px !important;
+}
+
+section.about p {
+    font-size: 1em;
+    line-height: 2.1em;
+}
+
+section.about {
+    padding-left: 40px;
+}
+
+
+/* Portfolio*/
+
+.portfolio {
+    background: #000;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    WIDTH: 171px;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0px;
+    HEIGHT: 65px;
+    margin-right: 10px;
+}
+
+.card:hover {
+    cursor: pointer;
+    color: red;
+}
+
+h1.title {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2em;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #fff;
+    width: 45%;
+    padding-top: 45px;
+}
+
+a.link-portfolio,
+a.link-portfolio:visisted,
+a.link-portfolio:active {
+    color: #fff !important;
+}
+
+a {
+    color: #fff !important;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+h2.description {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.4em;
+}
+
+p.link {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+    padding-top: 20px;
+}
+
+h4.card-title {
+    font-size: 1em;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    line-height: 21px;
+    padding-top: 16px;
+}
+
+.basicDimen {
+    width: 0px;
+    height: 0px;
+}
+
+
+/*CSS to draw Down Arrow */
+
+.downArrow {
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 29px solid #000;
+    margin: 0px auto;
+    margin-bottom: 20px;
 }
 
 
@@ -263,11 +410,13 @@ footer {
         margin: 0px auto;
         display: block;
         text-align: center !important;
+        color: #000 !important;
     }
     .main-nav a {
         border-top: 2px solid transparent;
         border-bottom: 2px solid transparent;
         font-size: 1.3em;
+        color: #000 !important;
     }
     .main-nav a:hover {
         border-color: rgba(0, 0, 0, .1);
@@ -296,6 +445,7 @@ footer {
         border-left: 3px solid transparent;
         border-right: 3px solid transparent;
         padding: 1.25em 1.5em;
+        color: #000 !important;
     }
     .main-nav a:hover {
         border-color: none !important;

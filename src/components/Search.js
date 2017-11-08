@@ -1,19 +1,23 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
-export default class Search extends Component {    
+export default class Search extends Component {
     constructor(props) {
-    super(props);
-    this.state = {term:''};
-    this.onInputChange = this.onInputChange.bind(this);
-  }
+        super(props);
+        this.state = { term: '' };
+    }
 
-  render(){
-     return <input onChange={this.onInputChange}/>
-  }
+    render() {
+        return (
+        <div>
+            <input 
+            value = { this.state.term }
+            onChange = { event => this.onInputChange(event.target.value)} />
+        </div>
+        );
+    }
 
-  onInputChange(event){
-      console.log(event.target.value);
-      this.setState = {term: event.target.value }
-  }
+    onInputChange(term) {
+        this.setState({ term});
+        this.props.onSearchTermChange(term);
+    }
 }
-
