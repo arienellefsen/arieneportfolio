@@ -54,7 +54,7 @@ a.resume-link{
     font-family: 'Work Sans', sans-serif;
     font-size: 1em;
     font-weight: 500;
-    margin-top: -2px !important;
+    margin-top: -23px !important;
     display: block;
     -webkit-transition: color 2s; /* Safari */
     transition: color 2s;
@@ -263,19 +263,21 @@ hr {
 
 
 /* About -------- */
-
-
 section.about{
     background-color:#af6d7a;
 }
 
-.profile-image-conatiner{
-    background: #ccc;
-    width: 90%;
+img.profile-image{
+    padding-top: 69px;
+    padding-left: 64px;
+}
+
+.profile-image-container{
+    background: #c2909b;
+    width: 450px;
     height: 450px;
     margin-top: -77px;
 }
-
 
 button.button-about {
     margin-right: 20px;
@@ -304,7 +306,7 @@ button.button-about {
     color: #000;  
     padding-bottom: 5px;
     line-height: 23px !important;
-    margin-top: -66px;
+    margin-top: 18px;
     width: 87%;
     text-align: center;
     padding-left: 82px;

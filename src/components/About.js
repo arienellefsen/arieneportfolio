@@ -1,15 +1,15 @@
 import React from 'react';
 
 const About = (props) => (
-  <section class="about">
+  <section className="about">
       <div className="container-fluid">
         <div className="row">
           <div className="col-md-12">
             <h2 className="page-title-header">{ props.title }</h2>
           </div>
           <div className="col-md-4">
-              <div className="profile-image-conatiner">              
-                  <img src={require(`../images/ari3.jpg`)} alt="Ariene Ellefsen"/>
+              <div className="profile-image-container">              
+                  <img src={require(`../images/Ariene-Ellefsen.jpg.jpg`)} alt="Ariene Ellefsen" className="profile-image"/>
                    <p className="quote">I have a passion for coding, I believe in life long learning and the power of design.</p>           
               </div>            
           </div>

@@ -44,4 +44,10 @@ $('a[href*="#"]')
   }
 });
 
+
+
+window.sr = ScrollReveal();
+var fooContainer = document.getElementById('2');
+sr.reveal('.portfolio', { container: fooContainer });
+
 });

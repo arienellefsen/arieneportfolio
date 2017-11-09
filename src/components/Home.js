@@ -32,7 +32,7 @@ class Home extends Component {
                 <About />
           </div> 
        </section>
-        <Footer />
+                <Footer />
     </div> 
     );
   }
