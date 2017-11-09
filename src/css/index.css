@@ -35,7 +35,7 @@ hr {
     border: 0;
     height: 0;
     margin: 2.3em 0 2em 0;
-    border-top: 1px solid rgba(0, 0, 0, .1);
+    border-top: 1px solid #fff;
 }
 
 p {
@@ -50,21 +50,32 @@ p {
 
 /* FORM & BUTTON STYLES -------- */
 
-button {
-    color: #000;
-    background: #fff;
-    padding: 0.65em 0.85em;
-    cursor: pointer;
-    border-color: #000;
-    border-radius: 3px;
+a.resume-link{
+    font-family: 'Work Sans', sans-serif;
     font-size: 1em;
-    font-weight: 600;
-    transition: background-color 0.5s ease;
+    font-weight: 500;
+    margin-top: -2px !important;
+    display: block;
+    -webkit-transition: color 2s; /* Safari */
+    transition: color 2s;
 }
 
-button:hover {
-    color: #fff;
-    background-color: #000;
+a.resume-link:hover{
+  color:#22211f;
+  text-decoration: none;
+}
+
+.fa{
+    font-size: 18px;
+    padding-left: 10px;
+    color:#fff;
+    text-align: center;
+    -webkit-transition: color 1s; /* Safari */
+    transition: color 1s;
+}
+
+.fa:hover{
+    color:#22211f;
 }
 
 
@@ -113,7 +124,7 @@ ul.main-nav li {
 .logo {
     font-family: 'Work Sans', sans-serif;
     font-size: 2em;
-    color: #000;
+    color: #22211f;
     padding-top: 0px;
     font-weight: 500;
     text-transform: none;
@@ -149,7 +160,6 @@ ul.main-nav li {
 }
 
 h2.page-title-header {
-    background: #fff;
     font-size: 1.2em;
     font-family: 'Playfair Display', serif;
     padding: 1em;
@@ -254,6 +264,19 @@ hr {
 
 /* About -------- */
 
+
+section.about{
+    background-color:#af6d7a;
+}
+
+.profile-image-conatiner{
+    background: #ccc;
+    width: 90%;
+    height: 450px;
+    margin-top: -77px;
+}
+
+
 button.button-about {
     margin-right: 20px;
 }
@@ -263,22 +286,34 @@ button.button-about {
     font-weight: 300;
     font-size: 2em !important;
     color: #000;
-    margin-top: -20px;
+    margin-top: -58px;
+    padding-top: 30px;
+    margin-bottom: -20px;
+    padding-bottom: 20px;
 }
+
+.social-icons{
+    margin-left: -6px;
+    padding-top: 3px;
+}
+
 
 .quote {
     font-family: 'Work Sans', sans-serif;
-    font-size: 1em !important;
-    color: #000;
-    padding-top: 10px;
-    font-weight: 500;
+    font-size: 0.95em !important;
+    color: #000;  
     padding-bottom: 5px;
-    line-height: 0px !important;
+    line-height: 23px !important;
+    margin-top: -66px;
+    width: 87%;
+    text-align: center;
+    padding-left: 82px;
 }
 
 section.about p {
     font-size: 1em;
     line-height: 2.1em;
+    color:#fff;
 }
 
 section.about {
@@ -289,7 +324,7 @@ section.about {
 /* Portfolio*/
 
 .portfolio {
-    background: #000;
+    background: #22211f;
     padding-bottom: 20px;
     padding-left: 20px;
     padding-top: 20px;
@@ -310,11 +345,15 @@ section.about {
     border-radius: 0px;
     HEIGHT: 65px;
     margin-right: 10px;
+    -webkit-transition: background-color 0.5s; /* Safari */
+    transition: background-color 0.5s;
+    margin-bottom: -5px;
 }
 
 .card:hover {
     cursor: pointer;
-    color: red;
+    background-color: #af6d7a;
+    color:#fff;
 }
 
 h1.title {
@@ -326,7 +365,7 @@ h1.title {
     padding-bottom: 10px;
     border-bottom: 2px solid #fff;
     width: 45%;
-    padding-top: 45px;
+    padding-top: 32px;
 }
 
 a.link-portfolio,
@@ -346,6 +385,16 @@ h2.description {
     font-size: 1.2em;
     color: #fff;
     font-weight: 300;
+    line-height: 1.4em;
+}
+
+
+h2.technologies {
+    padding-top: 10px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 500;
     line-height: 1.4em;
 }
 
@@ -383,12 +432,24 @@ h4.card-title {
 
 
 /*Footer*/
-
 footer {
     text-align: center;
     font-size: 0.85em;
-    color: #bebdbd;
+    color: #fff;
     font-family: 'Raleway', sans-serif;
+    padding-top: 30px;
+    background: #22211f;
+}
+footer p{
+    padding-bottom: 20px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+a.back-top:link{
+    color: #000 !important;
+    text-decoration: none;
+    margin-top: 34px;
+    margin-bottom: -50px;
 }
 
 
