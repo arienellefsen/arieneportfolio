@@ -9,7 +9,7 @@ const About = (props) => (
           </div>
           <div className="col-md-4">
               <div className="profile-image-container">              
-                  <img src={require(`../images/Ariene-Ellefsen.jpg.jpg`)} alt="Ariene Ellefsen" className="profile-image"/>
+                  <img src={require(`../images/Ariene-Ellefsen.jpg.jpg`)} alt="Ariene Ellefsen" className="profile-image img-fluid"/>
                    <p className="quote">I have a passion for coding, I believe in life long learning and the power of design.</p>           
               </div>            
           </div>

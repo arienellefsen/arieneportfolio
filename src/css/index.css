@@ -513,10 +513,39 @@ a.back-top:link{
     }
 
     .portfolio-title {      
-        margin-top: 30px;
-        
+        margin-top: 30px;        
     }
-    
+
+    section.about{
+        padding-left: 0px;
+    }
+    img.profile-image {
+        padding-top: 29px;
+        padding-left: 5px;
+        margin-left: -10px;
+    }
+    .profile-image-container {
+        background:none;
+        /* width: 450px; */
+        height: 450px;
+        margin-top: -77px;
+    }
+    .quote {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 0.95em !important;
+        color: #000;
+        padding-bottom: 5px;
+        line-height: 20px !important;
+        margin-top: 18px;
+        width: 73%;
+        text-align: left;
+        padding-left: 0px;
+    }
+
+    ul.main-nav li a{
+ font-size: 1em;
+ padding-right: 15px;
+    }
 }
 
 @media (min-width: 769px) {
