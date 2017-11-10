@@ -495,7 +495,28 @@ a.back-top:link{
         display: block;
         width: 100%;
         margin-bottom: 1em;
+    }  
+
+    h2.home-introduction{
+        font-size: 1.2em;
     }
+
+    .portfolio {
+        padding-left: 5px;       
+        padding-top: 20px; 
+        padding-bottom: 20px;
+    }
+
+    h1.title{
+        width: 90%;
+        font-size: 1.8em;
+    }
+
+    .portfolio-title {      
+        margin-top: 30px;
+        
+    }
+    
 }
 
 @media (min-width: 769px) {
@@ -517,9 +538,15 @@ a.back-top:link{
     }
     .main-nav a:hover {
         border-color: none !important;
-    }
-    /* COURSE NAV -------- */
+    }    
+
+
+
 }
+
+
+
+
 
 .card-img-top {
     width: 90px !important;
