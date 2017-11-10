@@ -21,7 +21,11 @@ const About = (props) => (
                 <a href="https://drive.google.com/file/d/0B98TqNWe3btVN2ZER05mVko2Mk0/view" target="_blank" className="resume-link">My Resume</a>
                 <div className="social-icons">              
                     <a href="https://www.linkedin.com/in/ariene-ellefsen-7376a531/" target="_blank" ><i className="fa fa-linkedin" aria-hidden="true"></i></a>
-                    <a href="https://github.com/arienellefsen" target="_blank" ><i className="fa fa-github" aria-hidden="true"></i></a>            
+                    <a href="https://github.com/arienellefsen" target="_blank" ><i className="fa fa-github" aria-hidden="true"></i></a>   
+
+                    {/* <div className="foo  foo-1">First
+                    </div> */}
+
                </div>
           </div>
         </div>

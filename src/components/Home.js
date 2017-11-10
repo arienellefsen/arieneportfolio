@@ -12,7 +12,8 @@ class Home extends Component {
                 <div className="col-md-9 center">
                   <h2 className="home-introduction text-center">Hello! I am Ariene Ellefsen, a Full Stack Web Developer & Graphic Designer based in Summit New Jersey. <br /></h2>                            
                     <div className="arrow-bottom text-center"></div>
-                        <p className="my-work-link text-center">See My Recent Projects </p>
+                    <ion-icon name="arrow-down"></ion-icon>
+                        <p className="my-work-link text-center">More about my work </p>
                         <article className='basicDimen downArrow'></article>
                     </div> 
                 </div> 
@@ -21,6 +22,7 @@ class Home extends Component {
       <section className="portfolio" > 
           <div className="container-fluid">
             <div className='portfolio'>
+             
                 <Portfolio />
             </div> 
           </div> 

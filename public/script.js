@@ -46,8 +46,13 @@ $('a[href*="#"]')
 
 
 
-window.sr = ScrollReveal();
-var fooContainer = document.getElementById('2');
-sr.reveal('.portfolio', { container: fooContainer });
+window.sr = ScrollReveal({ reset: true });
+
+sr.reveal('.profile-image', { 
+  origin: 'right', 
+  duration: 2000 
+});
+
+sr.reveal('.portfolio-card', {origin: 'right', distance: '300px', duration: 500}, 100);
 
 });

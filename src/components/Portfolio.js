@@ -18,6 +18,7 @@ class Portfolio extends Component {
                             portfolio={this.state.selectPortfolio} />
                       </div>
                       <div className="col-md-7 center">
+                      <h1 className="portfolio-title"> My recent projects</h1>
                         <PortfolioList 
                             portfolioSelect ={selectPortfolio => this.setState({selectPortfolio})}
                             portfolio={this.state.portfolio} />

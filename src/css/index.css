@@ -54,7 +54,7 @@ a.resume-link{
     font-family: 'Work Sans', sans-serif;
     font-size: 1em;
     font-weight: 500;
-    margin-top: -23px !important;
+    margin-top: -10px !important;
     display: block;
     -webkit-transition: color 2s; /* Safari */
     transition: color 2s;
@@ -265,6 +265,8 @@ hr {
 /* About -------- */
 section.about{
     background-color:#af6d7a;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 img.profile-image{
@@ -288,15 +290,15 @@ button.button-about {
     font-weight: 300;
     font-size: 2em !important;
     color: #000;
-    margin-top: -58px;
+    margin-top: -86px;
     padding-top: 30px;
-    margin-bottom: -20px;
+    margin-bottom: -25px;
     padding-bottom: 20px;
 }
 
 .social-icons{
     margin-left: -6px;
-    padding-top: 3px;
+    padding-top: 10px;
 }
 
 
@@ -305,7 +307,7 @@ button.button-about {
     font-size: 0.95em !important;
     color: #000;  
     padding-bottom: 5px;
-    line-height: 23px !important;
+    line-height: 20px !important;
     margin-top: 18px;
     width: 87%;
     text-align: center;
@@ -325,34 +327,37 @@ section.about {
 
 /* Portfolio*/
 
+.portfolio-title{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    color: #fff;
+    margin-top: -60px;
+    margin-bottom: 59px;
+}
+
+
 .portfolio {
     background: #22211f;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     padding-left: 20px;
-    padding-top: 20px;
+    padding-top: 50px;
+    margin-top: 50px;
 }
 
-.card {
-    position: relative;
-    display: -ms-flexbox;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    WIDTH: 171px;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border: 1px solid rgba(0, 0, 0, .125);
-    border-radius: 0px;
-    HEIGHT: 65px;
-    margin-right: 10px;
-    -webkit-transition: background-color 0.5s; /* Safari */
-    transition: background-color 0.5s;
-    margin-bottom: -5px;
+.portfolio-card{
+width: 170px;
+height: 65px;
+float: left;
+background-color: #fff;
+color:#22211f;
+margin-bottom: 10px;
+margin-left: 10px;
+-webkit-transition: background-color 0.5s; /* Safari */
+transition: background-color 0.5s;
 }
 
-.card:hover {
+.portfolio-card:hover {
     cursor: pointer;
     background-color: #af6d7a;
     color:#fff;
