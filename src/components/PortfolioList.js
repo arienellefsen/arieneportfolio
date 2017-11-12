@@ -8,7 +8,6 @@ const PortfolioList = ({portfolio, portfolioSelect}) => {
                 portfolio={portfolio}  key={i}
                 className="select"/>
     });
-   console.log(portfolio);
         return(
               <ul>{portItems}</ul>
         )
