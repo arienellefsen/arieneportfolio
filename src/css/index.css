@@ -66,6 +66,11 @@ a.resume-link:hover {
     text-decoration: none;
 }
 
+a.resume-link:visited,
+a.resume-lik:active {
+    color: #fff;
+}
+
 .fa {
     font-size: 18px;
     padding-left: 10px;
@@ -380,7 +385,7 @@ h1.title {
 }
 
 a.link-portfolio,
-a.link-portfolio:visisted,
+a.link-portfolio:visited,
 a.link-portfolio:active {
     color: #fff !important;
 }

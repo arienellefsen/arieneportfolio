@@ -1,2 +1,2 @@
-# arieneportfolio
-ariene portfolio created with react.js
+# Ariene Ellefsen Portfolio
+Featuring recent projects. Built with React.js, HTML5, CSS3.
