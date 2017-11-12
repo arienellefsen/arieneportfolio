@@ -6,7 +6,7 @@ const PortfolioList = ({portfolio, portfolioSelect}) => {
         return <PortfolioListItems
                 portfolioSelect = {portfolioSelect}
                 portfolio={portfolio}  key={i}
-        />
+                className="select"/>
     });
    console.log(portfolio);
         return(

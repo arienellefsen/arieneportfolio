@@ -50,32 +50,34 @@ p {
 
 /* FORM & BUTTON STYLES -------- */
 
-a.resume-link{
+a.resume-link {
     font-family: 'Work Sans', sans-serif;
     font-size: 1em;
     font-weight: 500;
     margin-top: -10px !important;
     display: block;
-    -webkit-transition: color 2s; /* Safari */
+    -webkit-transition: color 2s;
+    /* Safari */
     transition: color 2s;
 }
 
-a.resume-link:hover{
-  color:#22211f;
-  text-decoration: none;
+a.resume-link:hover {
+    color: #22211f;
+    text-decoration: none;
 }
 
-.fa{
+.fa {
     font-size: 18px;
     padding-left: 10px;
-    color:#fff;
+    color: #fff;
     text-align: center;
-    -webkit-transition: color 1s; /* Safari */
+    -webkit-transition: color 1s;
+    /* Safari */
     transition: color 1s;
 }
 
-.fa:hover{
-    color:#22211f;
+.fa:hover {
+    color: #22211f;
 }
 
 
@@ -263,61 +265,63 @@ hr {
 
 
 /* About -------- */
-section.about{
-    background-color:#af6d7a;
+
+section.about {
+    background-color: #af6d7a;
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
-img.profile-image{
+img.profile-image {
     padding-top: 69px;
     padding-left: 64px;
 }
 
-.profile-image-container{
+.profile-image-container {
     background: #c2909b;
     width: 450px;
     height: 450px;
     margin-top: -77px;
+    margin-left: -40px;
+}
+
+.content-about {
+    padding-left: 30px;
+}
+
+.content-about p {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.2em !important;
+    color: #22211f;
+}
+
+.content-about h1 {
+    font-size: 2em !important;
+    color: #22211f;
+    margin-top: -36px;
+    padding-bottom: 10px;
 }
 
 button.button-about {
     margin-right: 20px;
 }
 
-.header-about {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
-    font-size: 2em !important;
-    color: #000;
-    margin-top: -86px;
-    padding-top: 30px;
-    margin-bottom: -25px;
-    padding-bottom: 20px;
-}
-
-.social-icons{
+.social-icons {
     margin-left: -6px;
     padding-top: 10px;
 }
 
-
 .quote {
     font-family: 'Work Sans', sans-serif;
     font-size: 0.95em !important;
-    color: #000;  
+    color: #22211f;
     padding-bottom: 5px;
     line-height: 20px !important;
     margin-top: 18px;
     width: 87%;
     text-align: center;
-    padding-left: 82px;
-}
-
-section.about p {
-    font-size: 1em;
-    line-height: 2.1em;
-    color:#fff;
+    padding-left: 58px;
 }
 
 section.about {
@@ -327,7 +331,7 @@ section.about {
 
 /* Portfolio*/
 
-.portfolio-title{
+.portfolio-title {
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
     font-size: 2em;
@@ -335,7 +339,6 @@ section.about {
     margin-top: -60px;
     margin-bottom: 59px;
 }
-
 
 .portfolio {
     background: #22211f;
@@ -345,22 +348,23 @@ section.about {
     margin-top: 50px;
 }
 
-.portfolio-card{
-width: 170px;
-height: 65px;
-float: left;
-background-color: #fff;
-color:#22211f;
-margin-bottom: 10px;
-margin-left: 10px;
--webkit-transition: background-color 0.5s; /* Safari */
-transition: background-color 0.5s;
+.portfolio-card {
+    width: 170px;
+    height: 65px;
+    float: left;
+    background-color: #fff;
+    color: #22211f;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    -webkit-transition: background-color 0.5s;
+    /* Safari */
+    transition: background-color 0.5s;
 }
 
 .portfolio-card:hover {
     cursor: pointer;
     background-color: #af6d7a;
-    color:#fff;
+    color: #fff;
 }
 
 h1.title {
@@ -394,7 +398,6 @@ h2.description {
     font-weight: 300;
     line-height: 1.4em;
 }
-
 
 h2.technologies {
     padding-top: 10px;
@@ -439,6 +442,7 @@ h4.card-title {
 
 
 /*Footer*/
+
 footer {
     text-align: center;
     font-size: 0.85em;
@@ -447,12 +451,13 @@ footer {
     padding-top: 30px;
     background: #22211f;
 }
-footer p{
+
+footer p {
     padding-bottom: 20px;
     font-family: 'Work Sans', sans-serif;
 }
 
-a.back-top:link{
+a.back-top:link {
     color: #000 !important;
     text-decoration: none;
     margin-top: 34px;
@@ -463,6 +468,13 @@ a.back-top:link{
 /* ================================= 
   MEDIA QUERIES
 ==================================== */
+
+@media (max-width: 1200px) {
+    .content-about {
+        width: 80%;
+        padding-left: 240px;
+    }
+}
 
 @media (min-width: 0) and (max-width: 768px) {
     img.img-portfolio {
@@ -487,7 +499,7 @@ a.back-top:link{
         color: #000 !important;
     }
     .main-nav a:hover {
-        border-color: rgba(0, 0, 0, .1);
+        border-color: none;
     }
     .home a,
     input,
@@ -495,28 +507,23 @@ a.back-top:link{
         display: block;
         width: 100%;
         margin-bottom: 1em;
-    }  
-
-    h2.home-introduction{
+    }
+    h2.home-introduction {
         font-size: 1.2em;
     }
-
     .portfolio {
-        padding-left: 5px;       
-        padding-top: 20px; 
+        padding-left: 5px;
+        padding-top: 20px;
         padding-bottom: 20px;
     }
-
-    h1.title{
+    h1.title {
         width: 90%;
         font-size: 1.8em;
     }
-
-    .portfolio-title {      
-        margin-top: 30px;        
+    .portfolio-title {
+        margin-top: 30px;
     }
-
-    section.about{
+    section.about {
         padding-left: 0px;
     }
     img.profile-image {
@@ -525,10 +532,11 @@ a.back-top:link{
         margin-left: -10px;
     }
     .profile-image-container {
-        background:none;
+        background: none;
         /* width: 450px; */
         height: 450px;
         margin-top: -77px;
+        margin-left: 15px;
     }
     .quote {
         font-family: 'Work Sans', sans-serif;
@@ -541,10 +549,16 @@ a.back-top:link{
         text-align: left;
         padding-left: 0px;
     }
-
-    ul.main-nav li a{
- font-size: 1em;
- padding-right: 15px;
+    ul.main-nav li a {
+        font-size: 1em;
+        padding-right: 15px;
+    }
+    .portfolio-card {
+        width: 90%;
+    }
+    .content-about {
+        width: 100%;
+        padding-left: 20px;
     }
 }
 
@@ -567,15 +581,8 @@ a.back-top:link{
     }
     .main-nav a:hover {
         border-color: none !important;
-    }    
-
-
-
+    }
 }
-
-
-
-
 
 .card-img-top {
     width: 90px !important;

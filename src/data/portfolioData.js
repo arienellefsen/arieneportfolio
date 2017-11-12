@@ -99,6 +99,7 @@ const portfolioData = [{
         "type": "Graphic Design",
         "description": "Graphic Design",
         "longDescription": "Designed Ipad magazine",
+        "url": "https://www.behance.net/gallery/58750951/Ipad-magazine",
         "image": "ipad23.png",
         "Technology": "Indesign, Photoshop"
     },
@@ -109,6 +110,7 @@ const portfolioData = [{
         "type": "Graphic Design",
         "description": "Graphic Design",
         "longDescription": "Designed a book cover",
+        "url": "https://www.behance.net/gallery/58750579/Book-Cover",
         "image": "book_cover2.png",
         "Technology": "Seed beads, Photoshop and Indesign"
     },
@@ -119,6 +121,7 @@ const portfolioData = [{
         "type": "Graphic Design",
         "description": "Graphic Design",
         "longDescription": "Designed a poster for fashion event",
+        "url": "https://www.behance.net/gallery/58750745/Aika-Fashion-show",
         "image": "fashion_design.jpg",
         "Technology": "Illustrator, Indesign, Photoshop"
 
@@ -129,6 +132,7 @@ const portfolioData = [{
         "type": "Graphic Design",
         "description": "Graphic Design",
         "longDescription": "Designed a flyer for public library",
+        "url": "https://www.behance.net/gallery/58750915/NYPL-Flyer",
         "image": "NYPL_design.jpg",
         "Technology": "Illustrator, Indesign, Photoshop"
     },
@@ -139,6 +143,7 @@ const portfolioData = [{
         "type": "Graphic Design",
         "description": "Graphic Design",
         "longDescription": "Designed a annual report",
+        "url": "https://www.behance.net/gallery/58750797/Anual-Report",
         "image": "anual_design.jpg",
         "Technology": "Illustrator, Indesign, Photoshop"
     },
