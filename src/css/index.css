@@ -421,7 +421,7 @@ h4.card-title {
     font-family: 'Work Sans', sans-serif;
     text-align: center;
     line-height: 21px;
-    padding-top: 16px;
+    padding-top: 20px;
 }
 
 .basicDimen {
@@ -438,6 +438,32 @@ h4.card-title {
     border-top: 29px solid #000;
     margin: 0px auto;
     margin-bottom: 20px;
+}
+
+.arrow {
+    color: #000;
+    font-size: 60px;
+    display: block;
+    animation: bounce 1s infinite alternate;
+    -webkit-animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-15px);
+    }
+}
+
+@-webkit-keyframes bounce {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-15px);
+    }
 }
 
 

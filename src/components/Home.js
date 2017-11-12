@@ -11,10 +11,8 @@ class Home extends Component {
             <div className="row justify-content-md-center">
                 <div className="col-md-9 center">
                   <h2 className="home-introduction text-center">Hello! I am Ariene Ellefsen, a Full Stack Web Developer & Graphic Designer based in Summit New Jersey. <br /></h2>                            
-                    <div className="arrow-bottom text-center"></div>
-                    <ion-icon name="arrow-down"></ion-icon>
-                        <p className="my-work-link text-center">More about my work </p>
-                        <article className='basicDimen downArrow'></article>
+                    <p className="my-work-link text-center">More about my work </p>
+                    <i className="fa fa-chevron-down arrow text-center" aria-hidden="true"></i>
                     </div> 
                 </div> 
           </div> 
