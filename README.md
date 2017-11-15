@@ -1,4 +1,4 @@
 # Ariene Ellefsen Portfolio
-## Featuring recent projects. Built with React.js, HTML5, CSS3.
+## Featuring my recent projects. Built with React.js, HTML5 and CSS3.
      www.http://arienellefsen.com
 
